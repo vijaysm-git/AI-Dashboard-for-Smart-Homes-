@@ -46,7 +46,7 @@ for tip in tips:
 # Trends and Savings
 st.header("📈 Energy Consumption Trends")
 st.line_chart(df_trends[["Energy Usage (kWh)"]])
-st.area_chart(df_trends[["Estimated Savings ($)"]])
+
 
 # Simulate optimization
 if st.button("🔄 Optimize Energy Usage Now"):
